@@ -8,11 +8,13 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+ 
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -232,6 +234,11 @@ nav {
   color: #333;
 }
 
+.operation--signup {
+  display: none;
+  
+}
+
 .operation--transfer {
   background-image: linear-gradient(to top left, #ffb003, #ffcb03);
 }
@@ -336,4 +343,14 @@ h2 {
 .closing--btn {
   display: flex;
   justify-content: flex-end;
+  text-decoration: solid;
+}
+
+.signout {
+  display: none                                                                                       ;
+}
+
+.myButton {
+  border:none;
+  text-decoration: dotted;
 }

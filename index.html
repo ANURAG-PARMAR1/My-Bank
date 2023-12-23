@@ -17,7 +17,7 @@
   <body>
     <!-- TOP NAVIGATION -->
     <nav>
-      <p class="welcome">Log in to get started</p>
+      <p class="welcome">Welcome,  log in to get started</p>
       <img src="logo.png" alt="Logo" class="logo" />
       <form class="login">
         <input
@@ -34,28 +34,38 @@
         />
         <button class="login__btn">&rarr;</button>
       </form>
-      <button class="signup">Sign Up</button> 
+      <button class=" myButton signup">Sign Up</button> 
+      <button class="myButton signout">Sign Out</button> 
     </nav>
-
     
     <!-- SIGN UP OPPTION -->
-    <div style="display:none;" class="operation operation--loan operation--signup">
+    <div class="operation operation--loan operation--signup">
       <div class="closing--btn"> <button class="close" > ❎</button> </div>
       <h2 class="center">Sign Up</h2>
         
       
       
-      <form class=" form--signup">
+      <form class=" form--signup" >
         <input type="text" class="form__input form__input--ownerName" />
         <label class="form__label form__label--signup">Owner_Name</label>
         <input type="number" class="form__input form__input--intrest--rate" />
         <label class="form__label form__label--signup">Intrest_Rate</label>
         <input type="number" class="form__input form__input--pin" />
         <label class="form__label form__label--signup">Pin</label>
+        <input type="text" class="form__input form__input--currency" />
+        <label class="form__label form__label--signup">Currency</label>
+        <input type="text" class="form__input form__input--locale" />
+        <label class="form__label form__label--signup">Locale</label>
         <button class="form__btn--signup">&rarr;</button> 
       </form>
       
     </div>
+
+    
+    <!-- SIGN OUT OPTION
+    <div class="operation--signout">
+      <button class="signout">Sign Out</button>
+      </div> -->
 
     <main class="app">
       <!-- BALANCE -->
@@ -72,7 +82,7 @@
       <!-- MOVEMENTS -->
       <div class="movements">
         <div class="movements__row">
-          <!-- <div class="movements__type movements__type--deposit">2 deposit</div>
+          <div class="movements__type movements__type--deposit">2 deposit</div>
           <div class="movements__date"></div>
           <div class="movements__value"></div>
         </div>
@@ -81,7 +91,7 @@
             1 withdrawal
           </div>
           <div class="movements__date"></div>
-          <div class="movements__value"></div> -->
+          <div class="movements__value"></div>
         </div>
       </div>
 
