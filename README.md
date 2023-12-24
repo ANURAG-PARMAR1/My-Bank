@@ -33,7 +33,7 @@ A virtual bank for day to day life.
 
 ### Title Bar
 
-![App Screenshot](https://github.com/ANURAG-PARMAR1/My-Bank/blob/master/TitleBar.png?raw=true)
+![App Screenshot](https://github.com/ANURAG-PARMAR1/My-Bank/blob/master/Title.png?raw=true)
 -> This section displays the user that is currently logged in and his total balance.
 
 
